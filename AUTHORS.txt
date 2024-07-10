@@ -6,3 +6,4 @@
 # Name or Organization <email address>
 
 René Bieder <contact@renebieder.com>
+SUSE LLC <andy.fitzsimon@suse.com>
