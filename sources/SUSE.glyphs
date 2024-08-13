@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3316";
 .formatVersion = 3;
 DisplayStrings = (
 "­"
@@ -95,28 +95,6 @@ value = "D56600E4-3CB1-46B6-994E-4E22114E2E10";
 {
 name = blueScale;
 value = 0.04796;
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-2,
-3,
-5,
-6,
-29,
-31,
-32,
-33,
-35,
-36,
-37,
-38,
-45,
-47,
-62
-);
 },
 {
 name = "TrueType Curve Error";
