@@ -100,11 +100,11 @@ definitions.</p>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, syriac, math, old-permic, malayalam, tifinagh, tai-le, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, canadian-aboriginal, coptic, tai-le, malayalam, tifinagh, old-permic, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -155,7 +155,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: gurmukhi, coptic, zanabazar-square, lepcha, hanunoo, saurashtra, sharada, pahawh-hmong, gujarati, mende-kikakui, tibetan, bengali, tirhuta, bassa-vah, music, cham, kayah-li, tifinagh, tamil, syloti-nagri, canadian-aboriginal, mandaic, new-tai-lue, tai-tham, gunjala-gondi, sogdian, armenian, marchen, old-permic, psalter-pahlavi, modi, mongolian, limbu, osage, manichaean, bhaiksuki, kannada, buginese, masaram-gondi, myanmar, thaana, newa, elbasan, thai, balinese, oriya, khmer, meetei-mayek, hebrew, siddham, symbols, math, mahajani, soyombo, sinhala, grantha, nko, hanifi-rohingya, caucasian-albanian, tai-viet, brahmi, buhid, telugu, javanese, tagalog, devanagari, batak, kaithi, tagbanwa, phags-pa, khojki, tai-le, dogra, rejang, duployan, chakma, adlam, yi, syriac, kharoshthi, warang-citi, malayalam, sundanese, takri, khudawadi, lao, ahom, miao, wancho</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, malayalam, symbols, khudawadi, tagalog, newa, tai-viet, mende-kikakui, hanunoo, canadian-aboriginal, thaana, masaram-gondi, marchen, kannada, yi, saurashtra, mandaic, phags-pa, gunjala-gondi, soyombo, rejang, sundanese, bassa-vah, buhid, chakma, myanmar, sogdian, tagbanwa, coptic, manichaean, zanabazar-square, limbu, old-permic, syriac, tai-le, dogra, buginese, tifinagh, armenian, tirhuta, khmer, grantha, sinhala, gujarati, cham, syloti-nagri, siddham, mongolian, mahajani, math, music, batak, pahawh-hmong, new-tai-lue, ahom, lepcha, adlam, bhaiksuki, thai, duployan, elbasan, warang-citi, hebrew, wancho, meetei-mayek, tamil, khojki, kharoshthi, devanagari, tai-tham, nko, brahmi, oriya, psalter-pahlavi, balinese, telugu, takri, caucasian-albanian, kayah-li, modi, miao, sharada, gurmukhi, tibetan, bengali, osage, lao, javanese, kaithi</li>
 <li>U+275B HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
 <li>U+275C HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
 <li>U+275D HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
