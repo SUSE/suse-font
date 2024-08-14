@@ -1,5 +1,5 @@
 {
-.appVersion = "3316";
+.appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
 "­"
@@ -396,11 +396,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 950;
+value = 980;
 },
 {
 name = typoDescender;
-value = -250;
+value = -280;
 },
 {
 name = typoLineGap;
@@ -408,11 +408,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 980;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -280;
 },
 {
 name = hheaLineGap;
@@ -504,11 +504,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 950;
+value = 980;
 },
 {
 name = typoDescender;
-value = -250;
+value = -280;
 },
 {
 name = typoLineGap;
@@ -516,11 +516,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 980;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -280;
 },
 {
 name = hheaLineGap;
