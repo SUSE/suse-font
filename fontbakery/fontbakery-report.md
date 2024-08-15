@@ -1,44 +1,16 @@
 ## FontBakery report
 
-fontbakery version: 0.12.9
-
-
-
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
-
-
-<details><summary>[1] SUSE[wght].ttf</summary>
-<div>
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
-    <div>
+fontbakery version: 0.12.10
 
 
 
 
 
-
-
-* ⚠️ **WARN** <p>Family metadata at fonts/variable does not have an article.</p>
- [code: lacks-article]
+## Check results
 
 
 
-</div>
-</details>
-</div>
-</details>
-
-
-
-
-## All other checks
-
-
-
-<details><summary>[5] SUSE[wght].ttf</summary>
+<details><summary>[6] SUSE[wght].ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -79,6 +51,24 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/variable does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
     <div>
 
@@ -94,14 +84,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, canadian-aboriginal, coptic, tai-le, malayalam, tifinagh, old-permic, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, syriac, tai-le, math, tifinagh, old-permic, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -155,7 +145,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, malayalam, symbols, khudawadi, tagalog, newa, tai-viet, mende-kikakui, hanunoo, canadian-aboriginal, thaana, masaram-gondi, marchen, kannada, yi, saurashtra, mandaic, phags-pa, gunjala-gondi, soyombo, rejang, sundanese, bassa-vah, buhid, chakma, myanmar, sogdian, tagbanwa, coptic, manichaean, zanabazar-square, limbu, old-permic, syriac, tai-le, dogra, buginese, tifinagh, armenian, tirhuta, khmer, grantha, sinhala, gujarati, cham, syloti-nagri, siddham, mongolian, mahajani, math, music, batak, pahawh-hmong, new-tai-lue, ahom, lepcha, adlam, bhaiksuki, thai, duployan, elbasan, warang-citi, hebrew, wancho, meetei-mayek, tamil, khojki, kharoshthi, devanagari, tai-tham, nko, brahmi, oriya, psalter-pahlavi, balinese, telugu, takri, caucasian-albanian, kayah-li, modi, miao, sharada, gurmukhi, tibetan, bengali, osage, lao, javanese, kaithi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buhid, grantha, duployan, balinese, warang-citi, phags-pa, masaram-gondi, myanmar, tibetan, music, tai-viet, newa, miao, batak, sundanese, pahawh-hmong, bengali, thai, khojki, symbols, hanifi-rohingya, osage, nko, new-tai-lue, hebrew, caucasian-albanian, ahom, syloti-nagri, mahajani, gunjala-gondi, soyombo, hanunoo, limbu, bhaiksuki, canadian-aboriginal, gurmukhi, coptic, lao, math, marchen, zanabazar-square, tamil, kayah-li, tagbanwa, takri, siddham, sharada, gujarati, tifinagh, yi, sogdian, psalter-pahlavi, sinhala, meetei-mayek, kannada, mongolian, modi, syriac, khmer, lepcha, telugu, elbasan, kharoshthi, thaana, buginese, bassa-vah, tai-le, kaithi, tirhuta, malayalam, chakma, dogra, tai-tham, javanese, khudawadi, oriya, mende-kikakui, wancho, saurashtra, armenian, cham, manichaean, rejang, devanagari, brahmi, mandaic, tagalog, old-permic, adlam</li>
 <li>U+275B HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
 <li>U+275C HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
 <li>U+275D HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
@@ -220,7 +210,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 6 | 96 | 9 | 141 | 0 | 
+| 0 | 0 | 0 | 6 | 95 | 9 | 141 | 0 | 
 | 0% | 0% | 0% | 2% | 38% | 4% | 56% | 0% | 
 
 

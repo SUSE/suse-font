@@ -274,7 +274,7 @@ you're checking.</p>
         <td>0</td>
         <td>0</td>
         <td>6</td>
-        <td>96</td>
+        <td>95</td>
         <td>9</td>
         <td>141</td>
     </tr>
@@ -310,7 +310,7 @@ immediately.
 <p>(but other kinds of bug reports and/or feature requests
     are also always welcome, of course!)</p>
 
-<p>FontBakery version: 0.12.9</p>
+<p>FontBakery version: 0.12.10</p>
         
             
         
@@ -1099,18 +1099,12 @@ immediately.
             
         
             
-        
-            
-        
-            
                 <h2>Article Checks</h2>
 <span class='section__emoji'>
     ⚠️
 </span>
 
     <h3>
-    
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Mar/25</div>
     
     Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets.
 </h3>
@@ -1160,7 +1154,7 @@ immediately.
             
                 <h2>Metadata Checks</h2>
 <span class='section__emoji'>
-    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
 
     <h3>
@@ -1512,24 +1506,6 @@ immediately.
     Ensure there is a regular style defined in METADATA.pb.
 </h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/has_regular&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    The font has tags in the GF Tags spreadsheet
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/has_tags&gt;</div>
 
 
 
@@ -1958,14 +1934,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, canadian-aboriginal, coptic, tai-le, malayalam, tifinagh, old-permic, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, syriac, tai-le, math, tifinagh, old-permic, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -2019,7 +1995,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, malayalam, symbols, khudawadi, tagalog, newa, tai-viet, mende-kikakui, hanunoo, canadian-aboriginal, thaana, masaram-gondi, marchen, kannada, yi, saurashtra, mandaic, phags-pa, gunjala-gondi, soyombo, rejang, sundanese, bassa-vah, buhid, chakma, myanmar, sogdian, tagbanwa, coptic, manichaean, zanabazar-square, limbu, old-permic, syriac, tai-le, dogra, buginese, tifinagh, armenian, tirhuta, khmer, grantha, sinhala, gujarati, cham, syloti-nagri, siddham, mongolian, mahajani, math, music, batak, pahawh-hmong, new-tai-lue, ahom, lepcha, adlam, bhaiksuki, thai, duployan, elbasan, warang-citi, hebrew, wancho, meetei-mayek, tamil, khojki, kharoshthi, devanagari, tai-tham, nko, brahmi, oriya, psalter-pahlavi, balinese, telugu, takri, caucasian-albanian, kayah-li, modi, miao, sharada, gurmukhi, tibetan, bengali, osage, lao, javanese, kaithi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buhid, grantha, duployan, balinese, warang-citi, phags-pa, masaram-gondi, myanmar, tibetan, music, tai-viet, newa, miao, batak, sundanese, pahawh-hmong, bengali, thai, khojki, symbols, hanifi-rohingya, osage, nko, new-tai-lue, hebrew, caucasian-albanian, ahom, syloti-nagri, mahajani, gunjala-gondi, soyombo, hanunoo, limbu, bhaiksuki, canadian-aboriginal, gurmukhi, coptic, lao, math, marchen, zanabazar-square, tamil, kayah-li, tagbanwa, takri, siddham, sharada, gujarati, tifinagh, yi, sogdian, psalter-pahlavi, sinhala, meetei-mayek, kannada, mongolian, modi, syriac, khmer, lepcha, telugu, elbasan, kharoshthi, thaana, buginese, bassa-vah, tai-le, kaithi, tirhuta, malayalam, chakma, dogra, tai-tham, javanese, khudawadi, oriya, mende-kikakui, wancho, saurashtra, armenian, cham, manichaean, rejang, devanagari, brahmi, mandaic, tagalog, old-permic, adlam</li>
 <li>U+275B HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
 <li>U+275C HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
 <li>U+275D HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT: try adding symbols</li>
@@ -2131,6 +2107,10 @@ definitions.</p>
     
 
 
+            
+        
+            
+        
             
         
             
