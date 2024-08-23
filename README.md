@@ -20,7 +20,7 @@
 
 ## About
 
-**We are SUSE.** We believe in building a future for secure, open source innovation.
+At SUSE, We bring the infinite potential of open source to the enterprise. Visit [SUSE.com](http://suse.com) to learn more.
 
 ## Credits
 
