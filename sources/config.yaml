@@ -1,5 +1,9 @@
 sources:
   - SUSE.glyphs
+  - SUSE-Italic.glyphs
+
 axisOrder:
   - wght
+  - ital
+
 familyName: SUSE

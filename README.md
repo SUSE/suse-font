@@ -41,6 +41,24 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
+## Version 2.00
+
+**Major improvements:**
+
+- **Expanded character set and language support:**  
+  Updated to Google’s Latin Vietnamese-set ([GF_Latin_Vietnamese.txt](https://github.com/googlefonts/glyphsets/blob/main/Lib/glyphsets/results/txt/nice-names/GF_Latin_Vietnamese.txt)), increasing language coverage.
+
+- **New Black weight:**  
+  Added a “Black” weight to the upright family (now 9 weights).
+
+- **Italics:**  
+  Added Italic styles for all 9 upright weights.
+
+- **Monospaced family:**  
+  Introduced a monospaced family with 8 weights.
+
+- **Monospaced Italics:**  
+  Added Italic styles for all 8 monospaced weights.
 
 **28 June 2024. Version 1.00**
 

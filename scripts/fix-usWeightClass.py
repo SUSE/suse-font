@@ -2,14 +2,13 @@
 
 # Check if any otfs and ttfs have usWeightClass values of 100 and 200
 # and changes them to 250 and 275 consecutively.
+# Also changes 1000 (Black) to 900.
 # Files are overwritten.
 # Based on Playpen's script
-
 
 import sys
 import os
 from fontTools.ttLib import TTFont
-
 
 def fixusWeightClass(fontPath):
     # Get Font object from path
@@ -24,24 +23,26 @@ def fixusWeightClass(fontPath):
         # Set to 250
         os2.usWeightClass = 250
         print(f"{os.path.basename(fontPath)} usWeightClass {str(wght)} → {str(os2.usWeightClass)}")
-    # Check if UltraLight
+    # Check if ExtraLight
     elif wght == 200:
         # Set to 275
         os2.usWeightClass = 275
         print(f"{os.path.basename(fontPath)} usWeightClass {str(wght)} → {str(os2.usWeightClass)}")
+    # Check if Black
+    elif wght == 1000:
+        # Set to 900
+        os2.usWeightClass = 900
+        print(f"{os.path.basename(fontPath)} usWeightClass {str(wght)} → {str(os2.usWeightClass)}")
     else:
-        print(fontPath + " Nothing to fix.")
-        return
+        print(f"{os.path.basename(fontPath)} Nothing to fix.")
 
     # Save font
     font.save(fontPath)
     font.close()
 
-
 def main():
     fpath = sys.argv[1]
     fixusWeightClass(fpath)
-
 
 if __name__ == "__main__":
     main()

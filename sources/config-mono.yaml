@@ -1,0 +1,7 @@
+sources:
+  - SUSEMono.glyphs
+  - SUSEMono-Italic.glyphs
+axisOrder:
+  - wght
+  - ital
+familyName: SUSE Mono
