@@ -67,6 +67,8 @@ jobs:
         path: |
           fonts
           out
+          documentation
+          OFL.txt
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
@@ -108,9 +110,9 @@ jobs:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
       - name: Copy DESCRIPTION.en_us.html to release directory
-        run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
+        run: cp ${{ env.ZIP_NAME }}/documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
       - name: Copy ARTICLE.en_us.html to release directory
-        run: cp documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
+        run: cp ${{ env.ZIP_NAME }}/documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
         continue-on-error: true
       - name: Copy OFL.txt to release directory
         run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
