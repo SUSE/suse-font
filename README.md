@@ -38,6 +38,13 @@ If you want to build fonts manually on your own computer:
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at `https://github.com/SUSE/suse-font`.
 
+**Build notes**
+
+- Static OTF/TTF fonts map Thin → 250 and ExtraLight → 275 `usWeightClass`
+  for legacy Word compatibility.  
+- Variable fonts remain canonical (100–900).  
+- Black mapped consistently to 900.
+
 
 ## Changelog
 
