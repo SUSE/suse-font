@@ -55983,7 +55983,7 @@ weightClass = 700;
 },
 {
 axesValues = (
-780
+800
 );
 customParameters = (
 {
@@ -56028,8 +56028,7 @@ value = (
 }
 );
 instanceInterpolations = {
-"4138F7D5-0763-4B33-9A38-359ACF56B4CB" = 0.02857;
-"44520DEB-933F-4740-94E3-6BE30525566A" = 0.97143;
+"44520DEB-933F-4740-94E3-6BE30525566A" = 1;
 };
 isItalic = 1;
 linkStyle = ExtraBold;

@@ -52508,15 +52508,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-}
-);
-},
-{
 name = openTypeOS2WeightClass;
 value = 100;
 },
@@ -52579,15 +52570,6 @@ axesValues = (
 200
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-}
-);
-},
 {
 name = openTypeOS2WeightClass;
 value = 200;
@@ -52653,15 +52635,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-}
-);
-},
-{
 name = openTypeOS2WeightClass;
 value = 300;
 },
@@ -52726,15 +52699,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
-},
-{
 name = openTypeOS2WeightClass;
 value = 400;
 },
@@ -52797,15 +52761,6 @@ axesValues = (
 500
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 500;
-}
-);
-},
 {
 name = openTypeOS2WeightClass;
 value = 500;
@@ -52871,15 +52826,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-}
-);
-},
-{
 name = openTypeOS2WeightClass;
 value = 600;
 },
@@ -52943,15 +52889,6 @@ axesValues = (
 700
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-}
-);
-},
 {
 name = openTypeOS2WeightClass;
 value = 700;
@@ -53018,15 +52955,6 @@ axesValues = (
 800
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-}
-);
-},
 {
 name = openTypeOS2WeightClass;
 value = 800;
