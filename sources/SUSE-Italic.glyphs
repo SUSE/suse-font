@@ -665,7 +665,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 1000;
+Location = 900;
 }
 );
 },
